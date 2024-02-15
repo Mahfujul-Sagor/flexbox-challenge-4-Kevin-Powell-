@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 660px;
+  background-color: #F3EED9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+}
+
+.heading {
+  font-family: Playfair Display;
+  color: #824936;
+  font-size: 3.75rem;
+  font-weight: 900;
+}
+
+.header-perah {
+  font-family: Roboto;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.first-section {
+  min-height: 400px;
+  padding: 5rem;
+}
+
+.first-section h2 {
+  font-family: Playfair Display;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #824936;
+}
+
+.first-section__perah {
+  display: flex;
+  font-size: 1.313rem;
+  font-family: Roboto;
+  gap: 4rem;
+}
+
+.other-sections {
+  padding: 5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.one {
+  background-color: #222C2A;
+}
+
+.two {
+  background-color: #824936;
+}
+
+.other-content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.other-heading {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #F3EED9;
+}
